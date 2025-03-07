@@ -1,5 +1,7 @@
+import NewHeader from "../components/NewHeader"
+
 export default function ContactUs(){
     return(
-        <h1>ContactUs</h1>
+        <NewHeader background='Banner.png'/>
     )
 }
