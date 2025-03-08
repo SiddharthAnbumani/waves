@@ -1,10 +1,10 @@
 
-import Header from "../components/Header"
+import NewHeader from "../components/NewHeader"
 
 export default function CompetitiveLevel(){
   return (
     <div>
-      <Header src='Competitive.avif' />
+      <NewHeader background='Competitive.avif' />
     </div>
   )
 }

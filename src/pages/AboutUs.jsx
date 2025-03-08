@@ -1,9 +1,9 @@
-import Header from "../components/Header"
+import NewHeader from '../components/NewHeader'
 
 const AboutUs = () => {
   return (
     <div>
-        <Header src='ripple.avif'/>
+      <NewHeader background='ripple.avif'/>
     </div>
   )
 }
