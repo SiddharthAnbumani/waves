@@ -10,6 +10,10 @@ import Register from "./pages/Register"
 import Test from './pages/Test'
 import NewNavbar from "./components/NewNavbar"
 import Lts from "./pages/Courses/Lts"
+import OneMonth from "./pages/Courses/OneMonth"
+import ThreeMonth from "./pages/Courses/ThreeMonth"
+import SixMonth from "./pages/Courses/SixMonth"
+import StrokeSchool from "./pages/Courses/StrokeSchool"
 
 
 export default function App(){
@@ -22,6 +26,10 @@ export default function App(){
           <Route path='/courses' element={<SwimmingCourses />}></Route>
           <Route path='/competitive' element={<CompetitiveLevel/>}>
             <Route path="lts" element={<Lts/>}> </Route>
+            <Route path="onemonth" element={<OneMonth/>}> </Route>
+            <Route path="threemonth" element={<ThreeMonth/>}> </Route>
+            <Route path="sixmonth" element={<SixMonth/>}> </Route>
+            <Route path="strokeschool" element={<StrokeSchool/>}> </Route>
           </Route>
           <Route path='/gallery' element={<Gallery/>}></Route>
           <Route path='/contactus' element={<ContactUs />}></Route>

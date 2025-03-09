@@ -19,22 +19,22 @@ function NewNavbar() {
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link to="/settings" className="w-full block">
+            <Link to="/competitive/onemonth" className="w-full block">
             ONE MONTH COURSE
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link to="/logout" className="w-full block">
+            <Link to="/competitive/threemonth" className="w-full block">
               THREE MONTH COURSE
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link to="/logout" className="w-full block">
+            <Link to="/competitive/sixmonth" className="w-full block">
             SIX MONTH COURSE
             </Link>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Link to="/logout" className="w-full block">
+            <Link to="/competitive/strokeschool" className="w-full block">
             STROKE SCHOOL
             </Link>
           </MenuItem>
