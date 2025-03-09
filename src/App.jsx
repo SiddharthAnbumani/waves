@@ -7,6 +7,9 @@ import SwimmingCourses from "./pages/SwimmingCourses"
 import Gallery from './pages/Gallery'
 import ContactUs from './pages/ContactUs'
 import Register from "./pages/Register"
+import Test from './pages/Test'
+import NewNavbar from "./components/NewNavbar"
+import Lts from "./pages/Courses/Lts"
 
 
 export default function App(){
@@ -17,10 +20,13 @@ export default function App(){
           <Route path='/' element={<Home />}></Route>
           <Route path='/aboutus' element={<AboutUs/>}></Route>
           <Route path='/courses' element={<SwimmingCourses />}></Route>
-          <Route path='/competitive' element={<CompetitiveLevel/>}></Route>
+          <Route path='/competitive' element={<CompetitiveLevel/>}>
+            <Route path="lts" element={<Lts/>}> </Route>
+          </Route>
           <Route path='/gallery' element={<Gallery/>}></Route>
           <Route path='/contactus' element={<ContactUs />}></Route>
           <Route path='/register' element={<Register />}></Route>
+          <Route path='/test' element={<Test />}></Route>
       </Routes>
 
     </BrowserRouter>

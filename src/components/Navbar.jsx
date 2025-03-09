@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import NewNavbar from "./NewNavbar"
 
 export default function Navbar(){
     return(
@@ -20,7 +21,7 @@ export default function Navbar(){
                     </div>
                 </div>
             </div>
-            <div className=" bg-blue-500 flex justify-between py-5 text-white">
+            {/* <div className=" bg-blue-500 flex justify-between py-5 text-white">
                 <ul className="flex justify-between w-full font-bold">
                     <li className="ml-5">
                         <Link to='/'>HOME</Link>
@@ -48,7 +49,8 @@ export default function Navbar(){
                 <div className="w-130"> 
 
                 </div>
-            </div>
+            </div> */}
+            <NewNavbar/>
         </div>
         
             
