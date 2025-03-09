@@ -1,10 +1,9 @@
-import Header from "../components/Header"
-
+import NewHeader from "../components/NewHeader"
 
 export default function Gallery () {
   return (
     <div>
-    <Header src='Banner.png'/>
+    <NewHeader background='Banner.png'/>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import CompetitiveLevel  from "./pages/CompetitiveLevel"
 import SwimmingCourses from "./pages/SwimmingCourses"
 import Gallery from './pages/Gallery'
 import ContactUs from './pages/ContactUs'
+import Register from "./pages/Register"
 
 
 export default function App(){
@@ -19,6 +20,7 @@ export default function App(){
           <Route path='/competitive' element={<CompetitiveLevel/>}></Route>
           <Route path='/gallery' element={<Gallery/>}></Route>
           <Route path='/contactus' element={<ContactUs />}></Route>
+          <Route path='/register' element={<Register />}></Route>
       </Routes>
 
     </BrowserRouter>

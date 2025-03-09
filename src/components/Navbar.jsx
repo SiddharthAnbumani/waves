@@ -41,6 +41,9 @@ export default function Navbar(){
                     <li className="mr-5">
                         <Link to="contactus">CONTACT US</Link>
                     </li>
+                    <li className="mr-5">
+                        <Link to="register">REGISTER</Link>
+                    </li>
                 </ul>
                 <div className="w-130"> 
 
