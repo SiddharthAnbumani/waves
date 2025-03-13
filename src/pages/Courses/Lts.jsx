@@ -49,7 +49,7 @@ export default function Lts(){
                     </ul>
                 </div>
                 <div className="bg-amber-500 w-1/2">
-                    ckjsdkcsncsksaj
+                A picture will come here
                 </div>
             </div>
             
