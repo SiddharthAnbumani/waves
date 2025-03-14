@@ -1,3 +1,4 @@
+import Block from '../../components/Block'
 export default function Lts(){
     return (
         <div className="mx-10 flex-col items-center">
@@ -54,11 +55,17 @@ export default function Lts(){
             </div>
 
             <div className="flex">
-                <div className="w-full">
-                    
+                <div className='bg-blue-200 w-1/2'>
+                    <button className='bg-blue-400 font-bold font-white rounded-md m hover:bg-amber-300 transition'>
+                        6.00 - 7.00 AM
+                    </button>
+                </div>
+                <div className='bg-yellow-100 w-1/2'>
+                    <button>
+                        7.00 - 8.00 AM
+                    </button>
                 </div>
             </div>
-            
-        </div>
+            </div>
     )
 }
