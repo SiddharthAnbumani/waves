@@ -52,6 +52,12 @@ export default function Lts(){
                 A picture will come here
                 </div>
             </div>
+
+            <div className="flex">
+                <div className="w-full">
+                    
+                </div>
+            </div>
             
         </div>
     )
