@@ -55,15 +55,60 @@ export default function Lts(){
             </div>
 
             <div className="flex">
-                <div className='bg-blue-200 w-1/2'>
-                    <button className='bg-blue-400 font-bold font-white rounded-md m hover:bg-amber-300 transition'>
+                <div className= ' flex flex-col items-center bg-blue-200 w-1/2'>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
                         6.00 - 7.00 AM
                     </button>
                 </div>
-                <div className='bg-yellow-100 w-1/2'>
-                    <button>
-                        7.00 - 8.00 AM
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                    7.00 - 8.00 AM
                     </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        8.00 - 9.00 AM
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        9.00 - 10.00 AM
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        10.00 - 11.00 AM
+                    </button>
+                </div>
+                   
+                </div>
+                <div className=' flex flex-col items-center bg-yellow-100 w-1/2'>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        6.00 - 7.00 AM
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                    7.00 - 8.00 AM
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        8.00 - 9.00 AM
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        9.00 - 10.00 AM
+                    </button>
+                </div>
+                <div>
+                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
+                        10.00 - 11.00 AM
+                    </button>
+                </div>
                 </div>
             </div>
             </div>
