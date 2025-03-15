@@ -103,8 +103,17 @@ export default function Lts(){
                 </div>
                 </div>
             </div>
-
             </div>
+<div>
+    <h1 className='text-5xl'>
+    Every swimmer who joins us will learn to swim at their own pace in a learning environment that emphasizes empowerment and skill retention.
+    </h1>
+</div>
+
+<div>
+    <h1 className='text-5xl'>SWIMMING PROGRAMME FOR ADULTS</h1>
+</div>
+
             </div>
     )
 }
