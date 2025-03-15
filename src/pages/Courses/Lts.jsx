@@ -4,6 +4,47 @@ import Timings from '../../components/Timings'
 export default function Lts(){
     return (
         <div className="mx-10 flex-col items-center">
+            <div className="mt-5 mb-15">
+            <h1 className='text-4xl text-center font-bold font-serif'>LEARN TO SWIM COURSES</h1>
+            </div>
+            <div>
+                <div className='flex '>
+                    <div className='w-2/3 bg-blue-500'>
+
+                    <div className="flex justify-evenly">
+                    <div>     
+                        <button className='bg-white text-blue-800 font-bold px-10 py-5 rounded-md my-5 w-70'>
+                        LEARN TO SWIM KIDS
+                        </button>
+                    </div>
+                    <div>     
+                    <button className='bg-white text-blue-800 font-bold px-10 py-5 rounded-md border-t-cyan-50 my-5 w-70'>
+                        LEARN TO SWIM KIDS
+                        </button>
+                    </div>
+                    </div>
+
+                    <div className="flex justify-evenly">
+                    <div>     
+                    <button className='bg-white text-blue-800 font-bold px-10 py-5 rounded-md border-t-cyan-50 my-5 w-70'>
+                        LEARN TO SWIM KIDS
+                        </button>
+                    </div>
+                    <div>     
+                    <button className='bg-white text-blue-800 font-bold px-10 py-5 rounded-md border-t-cyan-50 my-5 w-70'>
+                        LEARN TO SWIM KIDS
+                        </button>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div className='w-1/3 bg-blue-700'>
+                    A picture wil come Here
+                    </div>
+                </div>
+                </div>
+           
+
             <div>
             <h1 className="text-5xl"> SEMI-PRIVATE AND PRIVATE SWIMMING LESSONS:</h1>
 
@@ -145,6 +186,6 @@ export default function Lts(){
 
 </div>
 
-            </div>
+</div>
     )
 }
