@@ -1,4 +1,6 @@
-import Block from '../../components/Block'
+import Timings from '../../components/Timings'
+
+
 export default function Lts(){
     return (
         <div className="mx-10 flex-col items-center">
@@ -54,62 +56,54 @@ export default function Lts(){
                 </div>
             </div>
 
+            <div className='bg-blue-200 rounded-4xl my-10 py-5'>
+            <h1 className='text-5xl text-center'>BATCHES DETAILS</h1>
             <div className="flex">
-                <div className= ' flex flex-col items-center bg-blue-200 w-1/2'>
+                <div className= ' flex flex-col items-center w-1/2'>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        6.00 - 7.00 AM
-                    </button>
+                    <Timings text='7.00 - 8.00 AM'/>
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                    7.00 - 8.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+                    
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        8.00 - 9.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+                    
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        9.00 - 10.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        10.00 - 11.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+
                 </div>
                    
                 </div>
-                <div className=' flex flex-col items-center bg-yellow-100 w-1/2'>
+                <div className=' flex flex-col items-center w-1/2'>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        6.00 - 7.00 AM
-                    </button>
+                    <Timings text='7.00 - 8.00 AM'/>
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                    7.00 - 8.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+                    
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        8.00 - 9.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+                    
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        9.00 - 10.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+
                 </div>
                 <div>
-                    <button className='bg-blue-400 font-bold font-white rounded-md my-5 px-10 hover:bg-amber-300 transition'>
-                        10.00 - 11.00 AM
-                    </button>
+                <Timings text='7.00 - 8.00 AM'/>
+
                 </div>
                 </div>
+            </div>
+
             </div>
             </div>
     )
