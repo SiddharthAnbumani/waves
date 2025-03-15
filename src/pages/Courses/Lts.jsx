@@ -3,9 +3,9 @@ import Timings from '../../components/Timings'
 
 export default function Lts(){
     return (
-        <div className="mx-10 flex-col items-center">
+        <div className="mx-15">
             <div className="mt-5 mb-15">
-            <h1 className='text-4xl text-center font-bold font-serif'>LEARN TO SWIM COURSES</h1>
+            <h1 className='text-6xl text-center font-bold font-serif'>LEARN TO SWIM COURSES</h1>
             </div>
             <div>
                 <div className='flex '>
@@ -45,26 +45,27 @@ export default function Lts(){
                 </div>
            
 
-            <div>
-            <h1 className="text-5xl"> SEMI-PRIVATE AND PRIVATE SWIMMING LESSONS:</h1>
 
-            </div>
-            <div className="mx-5  bg-amber-50 text-lg">
-                <p>(SHOULD BE CONFIRMED PRIOR OF JOINING)
+
+
+            <div className="mx-5  bg-amber-50 ">
+            <h1 className="text-4xl  font-bold text-center mt-15 mb-5"> SEMI-PRIVATE AND PRIVATE SWIMMING LESSONS:</h1>
+                <p className='text-lg'>(SHOULD BE CONFIRMED PRIOR OF JOINING)
                 While our core group swim classes are small, 
                 our private and semi-private swimming classes provide a more personalized experience. 
                 Private lessons are 60 minutes long and pair one swimmer with one instructor. Semi-private 
                 lessons also last 60 minutes, but two swimmers can join the same lesson, which makes these lessons 
                 a wonderful fit for siblings or friends who want to swim together. </p>
             </div>
-            <div>
-               <h1 className="text-4xl" >
+
+            <div className='bg-blue-100'>
+               <h1 className="text-3xl font-semibold text-center mt-15 mb-5" >
                We will follow these basic skill progressions during each class:
                </h1>
-            </div>
+
             <div className="flex">
-                <div className="w-1/2 text-lg">
-                    <ul>
+                <div className="w-1/2 text-lg font-semibold">
+                    <ul className=''>
                         <li>
                         Graduate Skills
                         </li>
@@ -96,6 +97,8 @@ export default function Lts(){
                 A picture will come here
                 </div>
             </div>
+            </div>
+
 
             <div className='bg-blue-200 rounded-4xl my-10 py-5'>
             <h1 className='text-5xl text-center'>BATCHES DETAILS</h1>
@@ -146,12 +149,12 @@ export default function Lts(){
             </div>
             </div>
 <div>
-    <h1 className='text-4xl font-bold text-center'>
+    <h1 className='text-4xl font-bold text-center text-blue-700'>
     Every swimmer who joins us will learn to swim at their own pace in a learning environment that emphasizes empowerment and skill retention.
     </h1>
 </div>
 
-<div className='my-10'>
+<div className='my-10 bg-blue-100'>
     <h1 className='text-5xl text-center'>SWIMMING PROGRAMME FOR ADULTS</h1>
 
     <p className='mx-10 text-lg mt-5'>
