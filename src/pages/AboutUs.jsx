@@ -3,7 +3,7 @@ import NewHeader from '../components/NewHeader'
 const AboutUs = () => {
   return (
     <div>
-      <NewHeader background='ripple.avif'/>
+      <NewHeader background='Competitive.avif'/>
     </div>
   )
 }

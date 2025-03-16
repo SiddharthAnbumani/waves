@@ -1,8 +1,11 @@
 import Timings from '../../components/Timings'
+import NewHeader from '../../components/NewHeader'
 
 
 export default function Lts(){
     return (
+
+        <>
         <div className="mx-15">
             <div className="mt-5 mb-15">
             <h1 className='text-6xl text-center font-bold font-serif'>LEARN TO SWIM COURSES</h1>
@@ -190,5 +193,6 @@ export default function Lts(){
 </div>
 
 </div>
+</>
     )
 }
