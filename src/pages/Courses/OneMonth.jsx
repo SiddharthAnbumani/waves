@@ -36,21 +36,25 @@ export default function OneMonth(){
                         Dive from block and swim freestyle
                         </li>
                     </ul>
-                    <h1>
-Graduate Skills:
+                    <h1 className='text-xl font-extrabold'>
+                        Graduate Skills:
                     </h1>
-                    <p>
-Swim 25 M Freestyle, demonstrating at least 3 side breaths, Swim 10 M Backstroke on the surface of the water. Kick 25M on the back,with a kick board, with the arms at the sides. Kick 10M on the stomach in streamline, without a kick board.
-
+                    <p className='text-lg font-semibold'>
+                        Swim 25 M Freestyle, demonstrating at least 3 side breaths,
+                         Swim 10 M Backstroke on the surface of the water. Kick 25M 
+                         on the back,with a kick board, with the arms at the sides. 
+                         Kick 10M on the stomach in streamline, without a kick board.
                     </p>
-                    <h1>
-                    NOTES:
-
+                    <span className='inline-flex'>
+                    <h1 className='text-xl font-extrabold'>
+                        NOTES:
                     </h1>
-                    <p>
-After graduating from this technique, you may choose to take Advanced Swim Strokes.
-
+                    <p className='text-lg font-semibold ml-2'>
+                        After graduating from this technique,
+                        you may choose to take Advanced Swim Strokes.
                     </p>
+                    </span>
+                   
                 </div>
 
                 <div className='w-1/3 bg-blue-300'>
