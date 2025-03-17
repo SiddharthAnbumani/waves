@@ -7,6 +7,10 @@ export default function CompetitiveLevel(){
     <div>
       <NewHeader background='Competitive.avif' />
       <Outlet/>
+
+      <h1 className="text-4xl">
+        Competitive Level
+      </h1>
     </div>
   )
 }
