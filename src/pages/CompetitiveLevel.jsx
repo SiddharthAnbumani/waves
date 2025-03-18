@@ -11,6 +11,9 @@ export default function CompetitiveLevel(){
       <h1 className="text-4xl">
         Competitive Level
       </h1>
+      <p>
+        Hello there this is just a git commit delete it later 
+      </p>
     </div>
   )
 }
